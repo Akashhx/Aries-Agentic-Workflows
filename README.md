@@ -32,7 +32,6 @@ The project is configured to support multiple model providers:
     ```bash
     # Windows
     py -3.11 -m venv venv
-    python -m venv venv
     .\venv\Scripts\activate
     ```
 
