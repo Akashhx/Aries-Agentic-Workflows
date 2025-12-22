@@ -1,4 +1,4 @@
-# Open WebUI Agentic Project
+# Aries Agentic AI Project (Using Open WebUI for GUI Access)
 
 This project is an instance of [Open WebUI](https://github.com/open-webui/open-webui), an extensible, feature-rich, and user-friendly self-hosted WebUI designed to operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs.
 
