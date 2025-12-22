@@ -64,24 +64,12 @@ pip install open-webui
 
 ## 5. Local LLM Setup (Ollama & Gemma)
 
-This project uses Ollama to run local Large Language Models (LLMs) like Gemma.
+For detailed, step-by-step instructions on setting up Ollama and the Gemma model, including visual guides, please refer to our dedicated documentation:
 
-### Step 5.1: Install Ollama
-1.  Go to the [Ollama Website](https://ollama.com/).
-2.  Download the installer for your OS (Windows, macOS, or Linux).
-3.  Run the installer and follow the on-screen instructions.
+👉 **[Read the Ollama & Gemma Setup Guide](OLLAMA_SETUP.md)**
 
-### Step 5.2: Pull and Run Gemma
-Once Ollama is installed, you need to download the Gemma model. Open a **new** terminal window (so it recognizes the `ollama` command) and run:
+*Return here after you have successfully verified that `ollama run gemma` works in your terminal.*
 
-```bash
-ollama run gemma
-```
-
-This command will:
-1.  Download the Gemma model weights (this may take a few minutes depending on your internet connection).
-2.  Start an interactive chat session with Gemma.
-3.  You can type `/bye` to exit the chat, but keep the Ollama service running in the background.
 
 ## 6. Environment Configuration
 
