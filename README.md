@@ -48,6 +48,18 @@ The project is configured to support multiple model providers:
     pip install open-webui
     ```
 
+### Local LLM Setup (Ollama)
+
+1.  **Download and Install Ollama**:
+    Visit [ollama.com](https://ollama.com/) and download the installer for your operating system.
+
+2.  **Pull and Run the Gemma Model**:
+    Open your terminal or command prompt and run:
+    ```bash
+    ollama run gemma
+    ```
+    This will download and start the Gemma model.
+
 ### Running the Application
 
 To start the Open WebUI server, ensure your virtual environment is activated and run:
