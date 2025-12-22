@@ -28,20 +28,14 @@ The project is configured to support multiple model providers:
 
 ### Installation
 
-1.  **Clone the repository** (if moving to a new device):
-    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
-
-2.  **Create and Activate Virtual Environment**:
+1.  **Create and Activate Virtual Environment**:
     ```bash
     # Windows
     python -m venv venv
     .\venv\Scripts\activate
     ```
 
-3.  **Install Dependencies**:
+2.  **Install Dependencies**:
     ```bash
     pip install -r temp_requirements.txt
     # OR if you want to install the latest open-webui
