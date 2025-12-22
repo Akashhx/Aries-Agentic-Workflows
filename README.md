@@ -23,7 +23,7 @@ The project is configured to support multiple model providers:
 ## Setup Instructions
 
 ### Prerequisites
--   **Python 3.11+**
+-   **Python 3.11** As of Now Python 3.13 is not supported
 -   **Git**
 
 ### Installation
@@ -31,6 +31,7 @@ The project is configured to support multiple model providers:
 1.  **Create and Activate Virtual Environment**:
     ```bash
     # Windows
+    py -3.11 -m venv venv
     python -m venv venv
     .\venv\Scripts\activate
     ```
