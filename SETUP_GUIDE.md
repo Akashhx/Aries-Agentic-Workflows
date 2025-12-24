@@ -17,21 +17,14 @@ This document provides a detailed, step-by-step guide to setting up the Open Web
 
 Before you begin, ensure you have the following software installed:
 
-*   **Python 3.11 or higher**: [Download Python](https://www.python.org/downloads/)
+*   **Python 3.11**: [Download Python](https://www.python.org/downloads/)
     *   *Note*: During installation on Windows, ensure you check "Add Python to PATH".
 *   **Git**: [Download Git](https://git-scm.com/downloads)
 
-## 2. Cloning the Repository
 
-Open your terminal or command prompt (PowerShell or CMD on Windows) and run the following commands to download the project code:
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
 ```
-*Replace `<repository-url>` with the actual URL of this repository and `<repository-directory>` with the name of the folder created.*
 
-## 3. Python Environment Setup
+## 2. Python Environment Setup
 
 It is best practice to use a virtual environment to manage dependencies locally.
 
@@ -49,7 +42,7 @@ source venv/bin/activate
 
 *You will know the virtual environment is active when you see `(venv)` at the beginning of your terminal prompt.*
 
-## 4. Installing Dependencies
+## 3. Installing Dependencies
 
 With your virtual environment activated, install the required Python packages:
 
@@ -62,7 +55,7 @@ pip install -r temp_requirements.txt
 pip install open-webui
 ```
 
-## 5. Local LLM Setup (Ollama & Gemma)
+## 4. Local LLM Setup (Ollama & Gemma)
 
 For detailed, step-by-step instructions on setting up Ollama and the Gemma model, including visual guides, please refer to our dedicated documentation:
 
@@ -71,7 +64,7 @@ For detailed, step-by-step instructions on setting up Ollama and the Gemma model
 *Return here after you have successfully verified that `ollama run gemma` works in your terminal.*
 
 
-## 6. Environment Configuration
+## 5. Environment Configuration
 
 The application may require specific environment variables to connect to various utilities.
 
@@ -86,7 +79,7 @@ The application may require specific environment variables to connect to various
     # OLLAMA_BASE_URL=http://localhost:11434
     ```
 
-## 7. Running the Application
+## 6. Running the Application
 
 Now you are ready to start the server. Ensure your virtual environment is active (see Step 3) and run:
 
